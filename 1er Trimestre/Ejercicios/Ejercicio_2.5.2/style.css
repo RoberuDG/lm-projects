@@ -1,0 +1,18 @@
+body{
+    background-color: silver;
+}
+
+.verde {
+    color: green;
+    font-size: 15px;
+}
+.rojo{
+    color:red;
+    text-align: center;
+}
+.encabezado{
+    font-size: 18px;
+}
+.azul{
+    color:blue;
+}

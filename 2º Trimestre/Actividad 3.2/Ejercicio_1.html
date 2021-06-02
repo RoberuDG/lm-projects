@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+    <form action="ejercicio_1.php" method="post">
+    <fieldset>
+        <legend>Datos fiscales</legend>
+        <input type="radio" name="datos_fiscales">En paro <br>
+        <input type="radio" name="datos_fiscales"> Autónomo <br>
+        <input type="radio" name="datos_fiscales"> Por c. ajena <br>
+    </fieldset>
+    <fieldset>
+        <legend>Datos personales</legend>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre_personal" id="nombre"><br>
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" name="apellidos_personal" id="apellidos"><br>
+        <label for="sueldo">Sueldo:</label>
+            <select name="lista_sueldos" id="sueldo">
+                <option value="+400">Más de 400 euros</option>
+                <option value="-400">Menos de 400 euros</option>
+                <option value="Variables">Variables</option>
+            </select> <br>
+        <input type="checkbox" name="enfermedad[]"> Con enfermedad profesional <br>
+        <input type="checkbox" name="padres[]"> Con padres a cargo <br>
+        <input type="checkbox" name="hijos[]"> Con hijos a cargo <br>
+    </form>
+</body>
+
+</html>
