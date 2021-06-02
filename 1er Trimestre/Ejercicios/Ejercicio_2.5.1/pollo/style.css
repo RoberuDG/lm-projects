@@ -1,0 +1,30 @@
+body{
+    background-color: #ffa07a;
+    font-family: Helvetica;
+}
+h2{
+    color: #ffd7c7;
+}
+ul{
+    list-style-type: square;
+    margin: 5px;
+}
+ol{
+    margin: 5px;
+}
+li{
+    margin: 10px;
+}
+a{
+    color:lightcoral
+}
+a:hover{
+    color:#ffd5d3;
+    text-decoration:none;
+}
+a:visited{
+    color:#71f6ff;
+}
+a:active{
+    color:#ec84ae;
+}

@@ -1,0 +1,23 @@
+table,td,th{
+    border: 1px solid black;
+}
+table{
+    text-align: center;
+    border-collapse: collapse;
+    font-family: Arial;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    text-decoration: none;
+    color:black;
+}

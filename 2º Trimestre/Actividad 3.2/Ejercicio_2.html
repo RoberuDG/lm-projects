@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset='utf-8'>
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <form action="ejercicio_2.php" method="post">
+        <fieldset>
+            <legend>Datos fiscales</legend>
+            <select name="lista_sectores" multiple>
+                <option value="automocion">Automocion</option>
+                <option value="metal">Metal</option>
+                <option value="informatica">Informatica</option>
+                <option value="finanzas">Finanzas</option>
+            </select> <br>
+            <input type="checkbox" name="autonomo[]">Autonomo
+            <input type="checkbox" name="c_ajena[]">Cuenta ajena
+            <input type="checkbox" name="no_sabe[]">No sabe<br>
+            <label for="funcion">Describa su función:</label><br>
+            <textarea name="area_funcion" id="funcion">Escriba aquí</textarea>
+        </fieldset>
+    </form>
+</body>
+</html>

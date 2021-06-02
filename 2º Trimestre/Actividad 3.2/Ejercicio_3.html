@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset='utf-8'>
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <form action="ejercicio_3.php" method="post">
+        <fieldset>
+            <legend>Laboral</legend>
+            <input type="checkbox" name="cuenta_ajena[]">Por cuenta cuenta_ajena
+            <input type="checkbox" name="autonomo[]">Autónomo <br>
+            <label for="extranjero">¿Alguna vez en el extranjero?</label><br>
+            <input type="radio" name="si_extranjero" id="extranjero">Sí
+            <select>
+                <option value="dentro">Dentro de la UE</option>
+                <option value="fuera">Fuera de la UE</option>
+            </select> <br>
+            <input type="radio" name="no_extranjero">No
+        </fieldset>
+        <fieldset>
+            <legend>Personal</legend>
+            <label for="apellidos_nombre">Apellidos y nombre: </label>
+            <input type="text" name="apellidos_y_nombre" id="apellidos_nombre"><br>
+            <label for="conocimientos">Conocimientos sobre:</label><br>
+            <select multiple>
+                <option value="informatica">Informática</option>
+                <option value="conduccion">Conducción</option>
+                <option value="finanzas">Finanzas</option>
+                <option value="leyes">Leyes</option>
+            </select>
+        </fieldset>
+    </form>
+</body>
+</html>

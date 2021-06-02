@@ -1,0 +1,44 @@
+h1, h2{
+    text-align: center;
+}
+table, td, th{
+    padding: 10px;
+    border-collapse: collapse;
+}
+thead{
+    background-color: cadetblue;
+    color: white;
+}
+tfoot{
+    background-color: green;
+    color: white;
+}
+body{
+    font-family: verdana;
+    font-size: 12px;
+}
+.green-betis{
+    color: green;
+}
+.resaltado{
+    color:white;
+    background-color: blue;
+}
+.tabla-centrada{
+    margin-left: auto;
+    margin-right: auto;
+}
+.encabezado-tabla1{
+    background-color: darkturquoise;
+    color:red
+}
+.tabla1{
+    border: 1px solid black;
+}
+.blue-uvieu{
+    color:blue;
+}
+.tabla2{
+    border: 1px solid red;
+    width: 300px;
+}

@@ -1,0 +1,26 @@
+body{
+    background-color: #ffb6c1;
+    font-family: 'Courier New', Courier, monospace
+}
+h2{
+    color:#ff8396;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin: 5px;
+}
+a{
+    color:lightcoral
+}
+a:hover{
+    color:#ffd5d3;
+    text-decoration:none;
+}
+a:visited{
+    color:#71f6ff;
+}
+a:active{
+    color:#ec84ae;
+}

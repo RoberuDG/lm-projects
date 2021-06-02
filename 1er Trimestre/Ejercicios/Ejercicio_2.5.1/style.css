@@ -1,0 +1,27 @@
+body{
+font-family: Arial;
+background-color: lightcoral;
+}
+h1{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+li{
+    margin: 10px;
+}
+a{
+ color: #281a19;
+}
+a:hover{
+    color:#ffd5d3;
+    text-decoration:none;
+}
+a:visited{
+    color:#71f6ff;
+}
+a:active{
+    color:#ec84ae;
+}

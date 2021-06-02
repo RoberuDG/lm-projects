@@ -1,0 +1,21 @@
+body{
+    background-color: #f4a460;
+    font-family: Arial;
+}
+
+h2{
+    color: gray;
+}
+a{
+    color:lightcoral
+}
+a:hover{
+    color:#ffd5d3;
+    text-decoration:none;
+}
+a:visited{
+    color:#71f6ff;
+}
+a:active{
+    color:#ec84ae;
+}
