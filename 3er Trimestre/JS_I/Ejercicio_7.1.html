@@ -1,0 +1,27 @@
+<!-- Se cargan por teclado tres números distintos. Mostrar por pantalla el mayor de ellos -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 7.1</title>
+    </head>
+    <body>
+        <script>
+        var n1, n2, n3;
+        n1 = parseInt(prompt('Introduce el primer número:'));
+        n2 = parseInt(prompt('Introduce el segundo número:'));
+        n3 = parseInt(prompt('Introduce el tercer número:'));
+        if (n1 > n2 && n1 > n3)
+            document.write('El número más grande es: ' + n1);
+        
+        else if(n2 > n3 && n2 > n1)
+            document.write('El número más grande es: ' + n2);
+        
+        else if (n3 > n2 && n3 > n1)
+            document.write('El número más grande es: ' + n3);
+        else
+            document.write('No hay un mayor absoluto');
+        
+        </script>
+    </body>
+</html>
