@@ -1,0 +1,23 @@
+<!-- Se ingresan por teclado tres números, si al menos uno de los valores ingresados es
+menores a 10, imprimir en la página la leyenda 'Alguno de los números es menor a
+diez'. -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 9</title>
+</head>
+
+<body>
+    <script>
+        var n1, n2, n3;
+        n1 = parseInt(prompt('Introduce el primer número'));
+        n2 = parseInt(prompt('Introduce el segundo número'));
+        n3 = parseInt(prompt('Introduce el tercer número:'));
+        if (n1 < 10 || n2 < 10 || n3 < 10)
+            document.write('Alguno de los números es menor a 10');
+    </script>
+</body>
+
+</html>

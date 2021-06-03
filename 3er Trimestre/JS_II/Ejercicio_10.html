@@ -1,0 +1,33 @@
+<!-- Solicitar el ingreso de alguna de estas palabras (casa, mesa, perro, gato) luego
+mostrar la palabra traducida en inglés. Es decir, si se ingresa 'casa' debemos mostrar
+el texto 'house' en la página. -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 10</title>
+</head>
+
+<body>
+    <script>
+        var r, i;
+        r = prompt('Introduce alguna de estas palabras: casa, mesa, perro, gato');
+        switch (r) {
+            case 'casa':
+                i = 'house';
+                break;
+            case 'mesa':
+                i = 'table';
+                break;
+            case 'perro':
+                i = 'dog';
+                break;
+            case 'gato':
+                i = 'cat';
+                break;
+        }
+    </script>
+</body>
+
+</html>

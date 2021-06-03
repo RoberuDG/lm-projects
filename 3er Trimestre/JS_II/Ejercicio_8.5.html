@@ -1,0 +1,34 @@
+<!-- De un operario se conoce su sueldo y los años de antigüedad. Se pide confeccionar
+un programa que lea los datos de entrada e informe
+a) Si el sueldo es inferior a 500 y su antigüedad es igual o superior a 10 años,
+otorgarle un aumento del 20 %, mostrar el sueldo a pagar.
+b) Si el sueldo es inferior a 500 pero su antigüedad es menor a 10 años, otorgarle un
+aumento de 5 %.
+c) Si el sueldo es mayor o igual a 500 mostrar el sueldo en la página sin cambios. -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 8.5</title>
+</head>
+
+<body>
+    <script>
+        var s, a;
+        s = parseInt(prompt('Ingrese el sueldo'));
+        a = parseInt(prompt('Ingrese la antigüedad en años'));
+        if (s < 500 && a >= 10) {
+            s = s + (s * (20 / 100));
+            document.write('El sueldo a pagar es de: ' + s);
+        }
+        else if (s < 500 && a < 10) {
+            s = s + (s * (5 / 100));
+            document.write('El sueldo a pagar es de: ' + s);
+        }
+        else if (s >= 500)
+            document.write('El sueldo a pagar es de: ' + s);
+    </script>
+</body>
+
+</html>

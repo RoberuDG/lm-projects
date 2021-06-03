@@ -1,0 +1,23 @@
+<!-- Confeccionar un programa que muestre en que cuatrimestre del año nos
+encontramos. Para esto obtener el mes.  -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 19</title>
+</head>
+<body>
+    <script>
+    function mostrarCuatrimestre(){
+        f = new Date();
+        if ((f.getMonth() + 1) <= 4)
+            document.write('Nos encontramos en el primer cuatrimestre');
+        else if ((f.getMonth() + 1) > 8)
+            document.write('Nos encontramos en el tercer cuatrimestre');
+        else
+            document.write('Nos encontramos en el segundo cuatrimestre');
+    }
+    mostrarCuatrimestre();
+    </script>
+</body>
+</html>

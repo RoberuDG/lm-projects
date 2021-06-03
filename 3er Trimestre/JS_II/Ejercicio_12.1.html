@@ -1,0 +1,20 @@
+<!-- Escribir un programa que lea 10 notas de alumnos y nos informe cuántos tienen notas
+mayores o iguales a 7 y cuántos menores -->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 12.1</title>
+</head>
+<body>
+    <script>
+        var n, c, a;
+        while (c != 10){
+            n = parseInt(prompt('Ingresa la nota'));
+            if (n >= 7)
+                a++;
+            c++;
+        }
+        document.write(a + ' alumnos han sacado un 7 o más');
+    </script>
+</body>
+</html>
