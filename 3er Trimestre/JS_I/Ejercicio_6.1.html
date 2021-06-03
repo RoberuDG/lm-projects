@@ -3,27 +3,30 @@ segundo informar su suma y diferencia, en caso contrario informar el producto y 
 división del primero respecto al segundo. -->
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Ejercicio 6.1</title>
-    </head>
-    <body>
-        <script>
-            var n1, n2, s, r, p, d;
-            n1 = parseInt(prompt('Ingresa un número:'));
-            n2 = parseInt(prompt('ingresa otro número:'));
-            if (n1 > n2){
-                s = n1 + n2;
-                r = n1 - n2;
-                document.write('La suma da: ' + s + '<br>');
-                document.write('Y la resta da: ' + r);
-            }
-            else{
-                p = n1 * n2;
-                d = n2/n1;
-                document.write('La multiplicación da: ' + p + '<br>');
-                document.write('Y la división da: ' + d);
-            }
-        </script>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 6.1</title>
+</head>
+
+<body>
+    <script>
+        var n1, n2, s, r, p, d;
+        n1 = parseInt(prompt('Ingresa un número:'));
+        n2 = parseInt(prompt('ingresa otro número:'));
+        if (n1 > n2) {
+            s = n1 + n2;
+            r = n1 - n2;
+            document.write('La suma da: ' + s + '<br>');
+            document.write('Y la resta da: ' + r);
+        }
+        else {
+            p = n1 * n2;
+            d = n2 / n1;
+            document.write('La multiplicación da: ' + p + '<br>');
+            document.write('Y la división da: ' + d);
+        }
+    </script>
+</body>
+
 </html>
