@@ -1,0 +1,45 @@
+body {
+    background-image: url("fndo_reloj.jpg");
+    background-size: cover;
+    color: #fff;
+    font-family: Arial;
+    font-size: 22;
+}
+.center{
+    width: 90%;
+    max-width: 1000px;
+}
+.fecha-hora{
+    width: 40%;
+    margin: 2em;
+}
+.fecha-hora p {
+    display: inline-block;
+    line-height: 1em;
+}
+.fecha{
+    font-family: Arial;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 0.3125em;
+    background: rgba(0, 0, 0, .5);
+    padding: 20px;
+    width: 100%;
+}
+.reloj{
+    font-family: Arial;
+    text-align: center;
+    font-size: 4em;
+    background: rgba(0, 0, 0, .5);
+    padding: 20px;
+    width: 100%;
+}
+
+.reloj .caja-segundos{
+    display: inline-block;
+}
+
+.reloj .segundos, .reloj .ampm{
+    font-size: 2rem;
+    display: block;
+}
