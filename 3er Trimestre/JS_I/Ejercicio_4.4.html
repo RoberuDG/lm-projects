@@ -1,0 +1,22 @@
+<!-- Se debe desarrollar un programa que pida el ingreso del precio de un artículo y la
+cantidad que lleva el cliente. Mostrar lo que debe abonar el comprador (Ingresar por
+teclado un precio sin decimales, es decir un entero: 2, 7, 90 etc.) -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 4.4</title>
+</head>
+
+<body>
+    <script>
+        var p, c, a;
+        p = parseInt(prompt('Ingrese precio:', 'Mete un número sin decimales'));
+        c = parseInt(prompt('Ahora ingrese la cantidad de artículos:', 'Mete un número sin decimales'));
+        a = p * c;
+        document.write('Debe abonar: ' + a + '€');
+    </script>
+</body>
+
+</html>
