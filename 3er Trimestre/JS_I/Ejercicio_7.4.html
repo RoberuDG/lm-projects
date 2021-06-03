@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 7.4</title>
+    </head>
+    <body>
+        <script>
+            var nom, cp, corr, porc;
+            nom = prompt('Introduce el nombre del postulante');
+            cp = parseInt(prompt('Introduce el Nº total de preguntas'));
+            corr = parseInt(prompt('Introduce el Nº de respuestas correctas'));
+            porc = (corr / cp) * 100;
+            if (porc >= 90)
+                document.write('Nivel superior obtenido');
+            else if (porc >= 75 && porc < 90)
+                document.write('Nivel medio obtenido');
+            else if (porc >= 50 && porc < 75)
+                document.write('Nivel regular obtenido');
+            else
+                document.write('Fuera de nivel');
+        </script>
+    </body>
+</html>
